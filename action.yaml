@@ -1,0 +1,9 @@
+name: 'Helm Package and Push Action'
+description: 'Package Helm Chart and Push to Artifacctory'
+author: 'Aruna Lakmal'
+branding:
+  color: 'blue'
+  icon: 'user-check'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
